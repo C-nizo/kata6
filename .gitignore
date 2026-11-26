@@ -23,7 +23,7 @@ nbproject/private/
 nbbuild/
 dist/
 nbdist/
-.nb-gradle/
+.nbgradle/
 
 ### VS Code ###
 .vscode/
@@ -45,7 +45,8 @@ nbdist/
 .DS_Store
 Thumbs.db
 
-### Bases de datos SQLite temporales ###
+### SQLite ###
+/db/*.db
 *.db-journal
 *.db-wal
 *.db-shm
